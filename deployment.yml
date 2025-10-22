@@ -16,6 +16,7 @@ spec:
       labels:
         app: nginx
     spec:
+      serviceAccountName: dev-user
       containers:
       - name: nginx
         image: nginx:1.16.1
